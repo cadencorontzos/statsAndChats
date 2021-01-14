@@ -7,3 +7,5 @@ The stats part of this project scans through a text and tells the user what word
 The chats part of this project creates bigrams and trigrams, essentially scanning the text, keeping track of which words follow others, and uses this knowledge to emulate text which sounds like the source material. (using gram.cc and gram.hh)
 
 Both the stats and the chats do their work using a bucketed hash table. Several example texts are given for testing and using.
+
+The intention of this project was to avoid use of the standard template library and construct our own data structures to build understanding.
